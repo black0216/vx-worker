@@ -1,0 +1,188 @@
+2024-11-17 16:34:18.319 [main] INFO  com.blue.VxWorkerApplication - Starting VxWorkerApplication using Java 17.0.9 with PID 22120 (D:\IdeaProjects\vx-worker\target\classes started by xiaol in D:\IdeaProjects\vx-worker)
+2024-11-17 16:34:18.320 [main] INFO  com.blue.VxWorkerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-17 16:34:18.788 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2024-11-17 16:34:18.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2024-11-17 16:34:18.796 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-17 16:34:18.798 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-17 16:34:18.828 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-17 16:34:18.828 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 477 ms
+2024-11-17 16:34:19.134 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2024-11-17 16:34:19.144 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2024-11-17 16:34:19.149 [main] INFO  com.blue.VxWorkerApplication - Started VxWorkerApplication in 1.145 seconds (process running for 1.447)
+2024-11-17 16:34:35.590 [http-nio-9000-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-17 16:34:35.590 [http-nio-9000-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-17 16:34:35.591 [http-nio-9000-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-17 16:34:35.652 [http-nio-9000-exec-2] INFO  com.blue.service.impl.SendMsgServiceImpl - 收到消息：Binance现货: MBOX/USDT
+1m内上涨1.71%
+0.199 → 0.2024
+24h涨幅: +13.3%
+2024-11-17 16:34:35.652 [http-nio-9000-exec-1] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637672929  内容：MBOX/USDT
+1m内上涨1.66%
+0.199 → 0.2023
+24h涨幅: +13.1%
+2024-11-17 16:34:36.682 [http-nio-9000-exec-3] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637672289  内容：MBOX/USDT
+1m内上涨1.71%
+0.199 → 0.2024
+24h涨幅: +13.3%
+2024-11-17 16:34:37.608 [http-nio-9000-exec-10] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637673050  内容：NB/USDT
+1m内下跌-8.47%
+4.37e-24 → 4e-24
+24h跌幅: -71.4%
+2024-11-17 16:34:37.971 [http-nio-9000-exec-6] INFO  com.blue.service.impl.SendMsgServiceImpl - 收到消息：MIGGLES/USDT
+1m内下跌-4.14%
+0.1667 → 0.1598
+24h涨幅: +21.9%
+2024-11-17 16:34:38.761 [http-nio-9000-exec-8] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500405708057  内容：[W/USDT] 大额卖出
+[2m]成交: 25.6万USD
+买卖比例: 13%/87%
+[24h]成交: 1651万USD
+买卖比例: 48%/52%
+成交变化: 15m[-0.7%] 1h[-0.3%] 4h[+0.3%] 24h[+6.4%]
+价格变化: 0.256→0.2547 (-0.5%)
+历史告警: 24h[2次] 4h[2次]
+2024-11-17 16:34:40.702 [http-nio-9000-exec-4] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629502327655040  内容：MBOX/USDT
+1m内上涨1.45%
+0.2003 → 0.2032
+24h涨幅: +13.6%
+2024-11-17 16:34:41.759 [http-nio-9000-exec-1] INFO  com.blue.service.impl.SendMsgServiceImpl - 收到消息：MBOX/USDT
+1m内上涨2.16%
+0.1989 → 0.2032
+24h涨幅: +10.0%
+2024-11-17 16:34:43.018 [http-nio-9000-exec-3] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500405708057  内容：[MBOX/USDT] 大额买入
+[1m]成交: 17.1万USD
+买卖比例: 79%/21%
+[24h]成交: 1218万USD
+买卖比例: 50%/50%
+成交变化: 15m[+3.3%] 1h[+4.2%] 4h[+8.5%] 24h[+13.5%]
+价格变化: 0.1979→0.2027 (+2.4%)
+历史告警: 24h[1次] 4h[1次]
+2024-11-17 16:34:46.522 [http-nio-9000-exec-10] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637672929  内容：SD/USDT
+1m内上涨1.34%
+1.27 → 1.287
+24h涨幅: +82.4%
+2024-11-17 16:34:51.421 [http-nio-9000-exec-6] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637673050  内容：NB/USDT
+1m内上涨4.5%
+4e-24 → 4.18e-24
+24h跌幅: -70.1%
+2024-11-17 16:34:52.649 [http-nio-9000-exec-7] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637672929  内容：MBOX/USDT
+1m内上涨3.02%
+0.199 → 0.205
+24h涨幅: +14.5%
+🚨 🚨 🚨
+2024-11-17 16:34:52.669 [http-nio-9000-exec-8] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500739671402  内容：Bybit合约: MBOX/USDT
+1m内上涨3.02%
+0.199 → 0.205
+24h涨幅: +14.5%
+🚨 🚨 🚨
+2024-11-17 16:34:53.027 [http-nio-9000-exec-4] INFO  com.blue.service.impl.SendMsgServiceImpl - 收到消息：Binance现货: MBOX/USDT
+3m内上涨3.69%
+0.1977 → 0.205
+24h涨幅: +14.7%
+2024-11-17 16:34:53.849 [http-nio-9000-exec-2] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637672289  内容：MBOX/USDT
+3m内上涨3.69%
+0.1977 → 0.205
+24h涨幅: +14.7%
+2024-11-17 16:35:03.006 [http-nio-9000-exec-3] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637673050  内容：NB/USDT
+1m内上涨8.25%
+4e-24 → 4.33e-24
+24h跌幅: -69.1%
+2024-11-17 16:35:06.994 [http-nio-9000-exec-10] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637672929  内容：MBOX/USDT
+3m内上涨4.3%
+0.1977 → 0.2062
+24h涨幅: +15.2%
+2024-11-17 16:35:08.462 [http-nio-9000-exec-5] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629502327655040  内容：MBOX/USDT
+1m内上涨2.95%
+0.2003 → 0.2062
+24h涨幅: +15.3%
+2024-11-17 16:35:12.778 [http-nio-9000-exec-6] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629502327655040  内容：MBOX/USDT
+1m内上涨3.25%
+0.2003 → 0.2068
+24h涨幅: +15.7%
+🚨 🚨 🚨
+2024-11-17 16:35:13.013 [http-nio-9000-exec-8] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500739671402  内容：Binance合约: MBOX/USDT
+1m内上涨3.25%
+0.2003 → 0.2068
+24h涨幅: +15.7%
+🚨 🚨 🚨
+2024-11-17 16:35:13.761 [http-nio-9000-exec-9] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500600659014  内容：Binance合约: MBOX/USDT
+1m内上涨3.25%
+0.2003 → 0.2068
+24h涨幅: +15.7%
+🚨 🚨 🚨
+2024-11-17 16:35:17.228 [http-nio-9000-exec-1] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500831600708  内容：UPbit 24H成交额(USD)前20
+-------------------------
+XRP/KRW: 38.28亿
+DOGE/KRW: 10.46亿
+ETC/KRW: 5.55亿
+ADA/KRW: 4.9亿
+XLM/KRW: 4.45亿
+BTC/KRW: 3.8亿
+SOL/KRW: 3.52亿
+ETH/KRW: 3.23亿
+PEPE/KRW: 1.83亿
+SHIB/KRW: 1.63亿
+USDT/KRW: 1.47亿
+XEM/KRW: 1.37亿
+SAND/KRW: 1.09亿
+SEI/KRW: 1.07亿
+TFUEL/KRW: 8880万
+MANA/KRW: 8556万
+SUI/KRW: 8426万 ↑
+HBAR/KRW: 8267万 ↓
+MEW/KRW: 8133万
+BCH/KRW: 7782万
+2024-11-17 16:35:17.446 [http-nio-9000-exec-3] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629502327655040  内容：OM/USDT
+1m内上涨1.23%
+3.34855 → 3.38974
+24h涨幅: +46.0%
+2024-11-17 16:35:19.100 [http-nio-9000-exec-5] INFO  com.blue.service.impl.SendMsgServiceImpl - 收到消息：NLK/USDT
+1m内上涨4.02%
+0.01441 → 0.01499
+24h涨幅: +13.0%
+2024-11-17 16:35:23.753 [http-nio-9000-exec-7] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500739670823  内容：BEER/USDT
+1m内上涨4.96%
+2.5639e-05 → 2.691e-05
+24h涨幅: +33.2%
+2024-11-17 16:35:23.930 [http-nio-9000-exec-8] INFO  com.blue.service.impl.SendMsgServiceImpl - 收到消息：BEER/USDT
+1m内上涨2.44%
+2.538e-05 → 2.6e-05
+24h涨幅: +18.9%
+2024-11-17 16:35:25.195 [http-nio-9000-exec-4] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629503088687234  内容：代币符号: USUAL
+代币名称: USUAL
+代币合约: 0xD523896a0181243f2282716D01567e580d636970
+
+持币人数: 2
+
+DexTools: https://www.dextools.io/app/ether/pair-explorer/0x2fe4B4f84d019c02A2517939159cAf4f410fF16c
+DexScreener: https://dexscreener.com/ethereum/0xD523896a0181243f2282716D01567e580d636970
+EtherScan: https://etherscan.io/token/0xD523896a0181243f2282716D01567e580d636970
+2024-11-17 16:35:35.033 [http-nio-9000-exec-2] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637673050  内容：BABYBTC/USDT
+1m内上涨3.71%
+0.002804 → 0.002908
+24h涨幅: +93.9%
+2024-11-17 16:35:45.580 [http-nio-9000-exec-3] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629502327655040  内容：MBOX/USDT
+1m内下跌-2.44%
+0.209 → 0.2039
+24h涨幅: +14.0%
+2024-11-17 16:36:00.065 [http-nio-9000-exec-5] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629502327655040  内容：MBOX/USDT
+3m内上涨2.76%
+0.1993 → 0.2048
+24h涨幅: +14.5%
+2024-11-17 16:36:04.137 [http-nio-9000-exec-7] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629501468637247  内容：DEXX创始人：未失联，团队近期会同步一些信息和方案
+
+DEXX创始人Roy在X平台回应失联质疑，其表示："特殊原因目前不能同步近况。再给我们一些时间给处理满意。 这两天团队会同步一些信息和方案，不是失联不失联问题。是直接被轰炸烂完全看不过来信息需要集中精力处理问题。网传版本就离谱，我也真不想回应不想看，这一天多时间只在解决问题"。
+
+[PANews]
+2024-11-17 16:35:51
+https://www.panewslab.com/zh/sqarticledetails/pte3nw9v.html
+2024-11-17 16:36:06.960 [http-nio-9000-exec-9] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637672929  内容：YGG/USDT
+1m内上涨1.22%
+0.531 → 0.5375
+24h涨幅: +7.2%
+2024-11-17 16:36:08.183 [http-nio-9000-exec-1] WARN  com.blue.service.impl.SendMsgServiceImpl - 未收录的消息：用户id 5629500637673050  内容：AIFUN/USDT
+1m内上涨3.23%
+0.013998 → 0.01445
+24h跌幅: -20.2%
+2024-11-17 16:37:50.580 [main] INFO  com.blue.VxWorkerApplicationTests - Starting VxWorkerApplicationTests using Java 17.0.9 with PID 24512 (started by xiaol in D:\IdeaProjects\vx-worker)
+2024-11-17 16:37:50.581 [main] INFO  com.blue.VxWorkerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-11-17 16:37:51.798 [main] INFO  com.blue.VxWorkerApplicationTests - Started VxWorkerApplicationTests in 1.487 seconds (process running for 2.118)
