@@ -1,0 +1,16 @@
+server:
+  port: 9000
+blue:
+  wechat:
+    corpId: ww121c6d024f685070
+    appConfigs:
+      - agentId: 1000027  # 应用ID
+        from-user-id: 5629500739670745  # 微信hook 需要转发的消息的用户id
+        secret: u-h5_JgvJc6zxdjqBpBvRoB4kgUnronpKPhEAGkuIaw  # 应用密钥
+        token: fw3MJ6Yne6JU5iuAmqrYYlsbxhyN
+        aesKey: PFY2kDjBgk7NXJAm6SsgNDjVsx82Brtbw3U5R7Rn7mG
+      - agentId: 1000028
+        from-user-id: 5629499757598073
+        secret: advRxZsx-dJSbysoxzPnHvi2W82rO7HkCBa8Sz2ZVvQ
+        token: BNJJhDFYtCS
+        aesKey: Q3vC8SxaKckbnBEexf9hXAqBk7JEUXirevwUxmGAVNq
