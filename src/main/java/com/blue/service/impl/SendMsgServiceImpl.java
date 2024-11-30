@@ -4,7 +4,6 @@ import com.blue.config.WxCpConfiguration;
 import com.blue.entity.ImageContent;
 import com.blue.entity.Receive;
 import com.blue.service.SendMsgService;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -12,12 +11,15 @@ import me.chanjar.weixin.cp.api.WxCpMessageService;
 import me.chanjar.weixin.cp.api.WxCpService;
 import me.chanjar.weixin.cp.api.impl.WxCpMessageServiceImpl;
 import me.chanjar.weixin.cp.bean.message.WxCpMessage;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.util.Objects;
 
 @Slf4j
+@EnableAsync
 @Service
 public class SendMsgServiceImpl implements SendMsgService {
 
@@ -25,6 +27,7 @@ public class SendMsgServiceImpl implements SendMsgService {
     public final Integer TYPE_IMAGE = 14;
 
 
+    @Async
     @Override
     public void sendMsg(Receive msg) {
 
