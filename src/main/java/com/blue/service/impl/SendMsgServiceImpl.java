@@ -21,7 +21,6 @@ import java.util.Map;
 import java.util.Objects;
 
 @Slf4j
-@EnableAsync
 @Service
 public class SendMsgServiceImpl implements SendMsgService {
 
