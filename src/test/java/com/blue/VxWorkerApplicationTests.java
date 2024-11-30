@@ -1,6 +1,9 @@
 package com.blue;
 
 import com.blue.config.WxCpConfiguration;
+import com.blue.entity.ImageContent;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.cp.api.WxCpMessageService;
@@ -21,15 +24,15 @@ class VxWorkerApplicationTests {
 
 
     @Test
-    void contextLoads() throws WxErrorException {
-
-        WxCpService cpService = WxCpConfiguration.getCpService(10000028);
+    void contextLoads() throws WxErrorException, JsonProcessingException {
 
 
-        if (cpService != null){
-            System.out.println("cpService is not null");
-        }
-        System.out.println("cpService");
+        String jsonData = "{\"file_path\":\"E:\\\\企微缓存\\\\WXWork\\\\16888000000\\\\Cache\\\\Image\\\\Temp\\\\xxx.jpg\",\"file_size\":235192,\"source_type\":2}";
+
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        ImageContent imageContent = objectMapper.readValue(jsonData, ImageContent.class);
+        System.out.println(imageContent);
 
     }
 

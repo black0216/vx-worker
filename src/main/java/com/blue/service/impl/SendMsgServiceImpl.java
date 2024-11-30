@@ -53,11 +53,10 @@ public class SendMsgServiceImpl implements SendMsgService {
                 }
             } else if (Objects.equals(msg.getMsg_type(), TYPE_IMAGE)) {
 
-                log.info("\n收到图片消息：{}", msg.getUser_id());
+                log.info("\n收到图片消息：{}  消息对象 {}", msg.getUser_id(),msg.getContent().toString());
 
                 try {
-                    ObjectMapper objectMapper = new ObjectMapper();
-                    ImageContent imageContent = objectMapper.readValue(msg.getContent().toString(), ImageContent.class);
+                    ImageContent imageContent = (ImageContent)msg.getContent();
                     File file = new File(imageContent.getFile_path());
                     // 上传图片
                     WxMediaUploadResult res = wxCpService.getMediaService().upload("image", file);
