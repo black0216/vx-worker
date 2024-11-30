@@ -60,8 +60,17 @@ public class SendMsgServiceImpl implements SendMsgService {
                 log.info("\n收到图片消息：{}  消息对象 {}", msg.getUser_id(),msg.getContent().toString());
 
                 try {
+                    // 延时一秒,防止插件还未保存图片到本地
+                    Thread.sleep(1000);
+
                     Map<String, Object> imageContent = (HashMap<String, Object>)msg.getContent();
                     File file = new File(imageContent.get("file_path").toString());
+
+
+                    if (!file.exists()){
+                        log.error("\n图片不存在：{}", file.getAbsolutePath());
+                        return;
+                    }
                     // 上传图片
                     WxMediaUploadResult res = wxCpService.getMediaService().upload("image", file);
 
