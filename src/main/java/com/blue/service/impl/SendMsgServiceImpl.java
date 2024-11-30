@@ -16,6 +16,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 @Slf4j
@@ -59,8 +61,8 @@ public class SendMsgServiceImpl implements SendMsgService {
                 log.info("\n收到图片消息：{}  消息对象 {}", msg.getUser_id(),msg.getContent().toString());
 
                 try {
-                    ImageContent imageContent = (ImageContent)msg.getContent();
-                    File file = new File(imageContent.getFile_path());
+                    Map<String, Object> imageContent = (HashMap<String, Object>)msg.getContent();
+                    File file = new File(imageContent.get("file_path").toString());
                     // 上传图片
                     WxMediaUploadResult res = wxCpService.getMediaService().upload("image", file);
 
